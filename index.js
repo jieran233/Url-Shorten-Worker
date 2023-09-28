@@ -9,8 +9,8 @@ custom_link:true,//Allow users to customize the short url.
 const html404 = `<!DOCTYPE html>
 <html>
 <body>
-  <h1>404 Not Found.</h1>
-  <p>The url you visit is not found.</p>
+  <h1>404 Not Found</h1>
+  <img src="https://http.cat/images/404.jpg"/>
   <p> <a href="https://github.com/crazypeace/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </p>
 </body>
 </html>`
@@ -175,7 +175,7 @@ async function handleRequest(request) {
 
   console.log(path)
   if(!path){
-    return Response.redirect("https://zelikk.blogspot.com/search/label/Url-Shorten-Worker", 302)
+    return Response.redirect("https://jieran233.github.io", 302)
     /* new Response(html404, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
